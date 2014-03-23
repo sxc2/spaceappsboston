@@ -1,11 +1,22 @@
 'use strict';
 
 /* Controllers */
+var myAppControllers = angular.module('myApp.controllers', []);
 
-angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
+function LandingCtrl($scope, $location) {
+	$scope.isActive = function (viewLocation) {
+       var active = (viewLocation === $location.path());
+       return active;
+	};
 
-  }])
-  .controller('MyCtrl2', [function() {
+};
 
-  }]);
+myAppControllers.controller('LandingCtrl', ['$scope', '$location', LandingCtrl]);
+
+// angular.module('myApp.controllers', []).
+//   controller('LandingCtrl', [function() {
+
+//   }])
+//   .controller('MyCtrl2', [function() {
+
+//   }]);

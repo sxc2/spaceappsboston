@@ -1,2 +1,9 @@
 logs/*
+config/*
+scripts/*
+test/*
+other/*
 !.gitkeep
+!package.json
+!index.html
+!travis.yml
