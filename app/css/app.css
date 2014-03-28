@@ -1,0 +1,380 @@
+/* app css stylesheet */
+ .menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+.menu:before {
+    content:"[";
+}
+.menu:after {
+    content:"]";
+}
+.menu > li {
+    display: inline;
+}
+.menu > li:before {
+    content:"|";
+    padding-right: 0.3em;
+}
+.menu > li:nth-child(1):before {
+    content:"";
+    padding: 0;
+}
+.dp {
+    opacity: 0.8;
+    padding: 5px;
+    transition: all 1s ease-in-out;
+}
+.dp:hover {
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    /*-webkit-font-smoothing:antialiased;*/
+}
+.red {
+    color: #FF6666;
+}
+.font-xs {
+    font-size:10pt;
+}
+.margined {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.chubby-margined {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.top-margined {
+    margin-top: 100px;
+}
+.bottom-padded {
+    padding-bottom: 100px;
+}
+.translucent {
+    /* default fallback */
+    background: rgb(255, 255, 255) transparent;
+    /* nice browsers */
+    background: rgba(255, 255, 255, 0.6);
+    /* IE 6/7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+    /* IE8 */
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+}
+.h1-jumbo {
+    font-family:"Open Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #131B4D;
+    font-size: 40pt;
+    font-style: bold;
+    text-shadow: 0 0 0.5em black;
+}
+.h2-small-jumbo {
+    font-size: 16pt;
+    text-shadow: 0 0 0.5em black;
+}
+.panel-burn {
+    background-color: #999999;
+    color:white;
+}
+.right-border {
+    border-right: 2px solid gray;
+}
+.padded {
+    padding: 100px;
+}
+.gray-back {
+    background: gray;
+    color: #EDEFF5;
+}
+.white {
+    color:white;
+}
+.gray-hr {
+    border-color: gray;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+.black-back {
+    background: black;
+    color: #FFB600;
+}
+.vertical-offset-100 {
+    padding-top:100px;
+}
+.nav-pills>li[data-slide-to="3"].active a {
+    background-color: #DDDDDD;
+    color: black;
+}
+.carousel-dark-text, .hr-dark {
+    color: black;
+    border-color: black;
+    text-decoration: none;
+}
+.strip-link-color {
+    color:white;
+}
+#about, #sponsor, #faq, #team {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.logo-small {
+    height: 140px;
+}
+.logo-tiny {
+    height: 50px;
+}
+.logo-tiny-tiny {
+    height: 25px;
+}
+.neg-mar {
+    height: 50px;
+    margin-bottom: 0px;
+}
+.bold-border {
+    font-weight: bolder;
+    color:white;
+    background-color: #FFB600;
+}
+.bold-border.blue {
+    background-color: #151B4E;
+}
+.external-link {
+    color: #FF3333;
+    text-shadow: 0 0 0.05em #FF3333;
+
+    font-weight: bolder;
+}
+.external-link:hover {
+    color: white;
+    text-shadow: 0 0 0.05em white;
+}
+.pink {
+    color: #ffa5d2;
+    text-shadow: 0 0 0.05em #ffa5d2;
+}
+.green {
+    color: #009966;
+    text-shadow: 0 0 0.05em #009966;
+}
+.navy {
+    color: #000080;
+    text-shadow: 0 0 0.05em #000080;
+}
+.bolder {
+    font-weight: bold;
+    font-size: 22pt;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+/* Side notes for calling out things
+-------------------------------------------------- */
+
+/* Base styles (regardless of theme) */
+ .bs-callout {
+    margin: 0 0;
+    padding: 10px 10px 10px 10px;
+    border-left: 5px solid #222222;
+    font-size: 9pt;
+}
+.bs-callout h4 {
+    margin-top: 0;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code, .bs-callout .highlight {
+    background-color: #fff;
+}
+/* Themes for different contexts */
+ .bs-callout-default {
+    background-color: #333333;
+    border-color: #222222;
+    color:#aaaaaa;
+}
+.bs-callout-default-2 {
+    background-color: #444444;
+    border-color: #333333;
+    color:#bbbbbb;
+}
+.bs-callout-default-3 {
+    background-color: #555555;
+    border-color: #444444;
+    color:#cccccc;
+}
+.bs-callout-default-4 {
+    background-color: #666666;
+    border-color: #555555;
+    color:#eeeeee;
+}
+.bs-callout-default-5 {
+    background-color: #777777;
+    border-color: #666666;
+    color:#ffffff;
+}
+.bs-callout-danger {
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+}
+.bs-callout-warning {
+    background-color: #fefbed;
+    border-color: #f1e7bc;
+}
+.bs-callout-info {
+    background-color: #f0f7fd;
+    border-color: #d0e3f0;
+}
+.splash {
+    background: url(../img/east.jpg) no-repeat center;
+    background-size: auto;
+}
+/*body {
+  padding-top: 50px;
+}
+*/
+
+/* Panel for organizers
+-------------------------------------------------- */
+ .thumbnail {
+    position:relative;
+    overflow:hidden;
+    border-radius: 0px;
+}
+.skinny-row {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(50, 50, 50, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.thumbnail:hover .caption {
+    top:0%;
+}
+/* Panel for sponsors
+-------------------------------------------------- */
+ .panel-default {
+    border-radius: 0px;
+}
+.panel-image {
+    border-radius: 0px;
+    position: relative;
+    cursor: pointer;
+    cursor: hand;
+}
+.panel-image img.panel-image-preview {
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+    cursor: pointer;
+    cursor: hand;
+}
+.panel-image label {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    cursor: hand;
+}
+.panel-heading ~ .panel-image img.panel-image-preview {
+    border-radius: 0px;
+    cursor: pointer;
+    cursor: hand;
+}
+.panel-body {
+    overflow: hidden;
+    color: black;
+}
+.panel-image ~ input[type=checkbox] {
+    position:absolute;
+    top:- 30px;
+    z-index: -1;
+}
+.panel-image ~ input[type=checkbox] ~ .panel-body {
+    height: 0px;
+    padding: 0px;
+}
+.panel-image ~ input[type=checkbox]:checked ~ .panel-body {
+    height: auto;
+    padding: 15px;
+}
+.panel-image ~ .panel-footer a {
+    padding: 0px 10px;
+    font-size: 1.3em;
+    color: rgb(100, 100, 100);
+}
+/*
+.splash::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content:'';
+    background: url(../img/nasacodelayer1.png) no-repeat center;
+    -webkit-animation: spinX 240s ease infinite;
+}
+@-webkit-keyframes spinX {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -webkit-transform-origin: 50% 50% 0;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -webkit-transform-origin: 50% 50% 0;
+    }
+}*/
+ @media (max-width: 980px) {
+    /*.top-margined{
+        margin-top: 50px;
+    }*/
+}
+@media (max-width: 480px) {
+    .h1-jumbo {
+        font-size: 28pt;
+    }
+
+    .chubby-margined {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .splash::before {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        content:'';
+    }
+    .logo-tiny {
+        margin-left: 20px;
+    }
+    .padded {
+        padding: 15px;
+    }
+    .skinny-margins {
+        margin: 0px;
+        padding: 0px;
+    }
+    .splash {
+        background-size: auto;
+    }
+    .skinny-row {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
