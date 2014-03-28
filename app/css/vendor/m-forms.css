@@ -38,22 +38,22 @@ input[type="tel"].m-wrap,
 input[type="color"].m-wrap,
 .m-uneditable-input 
 {
-	vertical-align: top;
-	display: inline-block;
-	height: 20px;
-	padding: 6px 6px;
-	margin-bottom: 9px;
-	margin-top: 0px;
-	font-size: 14px;
-	line-height: 20px;
-	color: #333333; 
-	
-	background-color: #ffffff;
-	border: 1px solid #eeeeee;
-	
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
+  vertical-align: top;
+  display: inline-block;
+  height: 20px;
+  padding: 6px 6px;
+  margin-bottom: 9px;
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333; 
+  
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 input.m-wrap,
@@ -124,16 +124,16 @@ input[type="color"].m-wrap:focus,
 
 input[type="radio"].m-wrap,
 input[type="checkbox"].m-wrap {
-  	margin: 4px 0 0;
-  	margin-top: 1px \9;
-  	*margin-top: 0;
-  	line-height: normal;
-	cursor: pointer;	
-	
-  	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;	
-	
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    *margin-top: 0;
+    line-height: normal;
+  cursor: pointer;  
+  
+    -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  
 }
 
 input[type="file"].m-wrap,
@@ -254,10 +254,10 @@ textarea.m-wrap::-webkit-input-placeholder {
 
 .m-ctrl-huge
 {
-	width: 480px !important;
-	font-size: 24px !important;
-	line-height: 36px !important;
-	padding: 22px 8px !important;
+  width: 480px !important;
+  font-size: 24px !important;
+  line-height: 36px !important;
+  padding: 22px 8px !important;
 }
 
 input[class*="span"].m-wrap,
@@ -285,14 +285,14 @@ textarea.m-wrap,
 
 .m-input-prepend .add-on > [class^="icon-"]
 {
-	margin-top: 5px;
-	margin-left: 3px;
+  margin-top: 5px;
+  margin-left: 3px;
 }
 
 .m-input-append .add-on > [class^="icon-"]
 {
-	margin-top: 5px;
-	margin-left: 0px;
+  margin-top: 5px;
+  margin-left: 0px;
 }
 
 
@@ -300,14 +300,14 @@ input[disabled].m-wrap,
 select[disabled].m-wrap,
 textarea[disabled].m-wrap
 {
-	cursor: not-allowed;
-  	background-color: #fafafa;
+  cursor: not-allowed;
+    background-color: #fafafa;
 }
 input[readonly].m-wrap,
 select[readonly].m-wrap,
 textarea[readonly].m-wrap {  
-	cursor: default;	
-  	background-color: #fafafa;
+  cursor: default;  
+    background-color: #fafafa;
 }
 
 input[type="radio"][disabled].m-wrap,
@@ -396,8 +396,8 @@ select.m-wrap:focus:required:invalid:focus {
 
 .m-input-prepend .add-on,
 .m-input-prepend .m-btn {
-	margin-top: 0px;
-  	margin-right: -1px;
+  margin-top: 0px;
+    margin-right: -1px;
 }
 
 .m-input-prepend .add-on:first-child,
@@ -417,8 +417,8 @@ select.m-wrap:focus:required:invalid:focus {
 
 .m-input-append .add-on,
 .m-input-append .m-btn {
-	margin-left: -1px;
-	margin-top: 0px;
+  margin-left: -1px;
+  margin-top: 0px;
 }
 
 .m-input-append .add-on:last-child,

@@ -39,13 +39,13 @@ input[type="submit"] {
 }
 /* overrides button presets for mozilla clients*/
 @-moz-document url-prefix() {
-	button,
-	input[type="button"],
-	input[type="reset"],
-	input[type="submit"] {
-		cursor: pointer;
-	 	padding: 6px 14px;
-	}
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    cursor: pointer;
+    padding: 6px 14px;
+  }
 }
 input[type="search"] {
   -webkit-appearance: textfield;
@@ -203,7 +203,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
   color: #333333;
   min-width: 42px;
   
-  text-shadow: #ffffff 0 1px 0;	 
+  text-shadow: #ffffff 0 1px 0;  
   text-align: center;  
   text-decoration: none;
   white-space: nowrap;
@@ -253,22 +253,22 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 }
 .m-btn.red-stripe
 {
-	border-left: 3px solid #d84a38;
+  border-left: 3px solid #d84a38;
 }
 
 .m-btn.blue-stripe
 {
-	border-left: 3px solid #4d90fe;
+  border-left: 3px solid #4d90fe;
 }
 
 .m-btn.purple-stripe
 {
-	border-left: 3px solid #852b99;
+  border-left: 3px solid #852b99;
 }
 
 .m-btn.green-stripe
 {
-	border-left: 3px solid #35aa47;
+  border-left: 3px solid #35aa47;
 }
 
 /* Common button classes */
@@ -307,19 +307,19 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 .m-btn.green.disabled,
 .m-btn.green[disabled]
 {
-	opacity: .7;
+  opacity: .7;
 }
 
 .m-btn.black.disabled,
 .m-btn.black[disabled]
 {
-	opacity: .5;
+  opacity: .5;
 }
 
 /*  Red */
 .m-btn.red {
   color: white;  
-  text-shadow: none;	
+  text-shadow: none;  
   background-color: #d84a38;
   background-image: -moz-linear-gradient(top, #dd4b39, #d14836);
   background-image: -ms-linear-gradient(top, #dd4b39, #d14836);
@@ -367,7 +367,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 .m-btn.blue   
 {
   color: white;  
-  text-shadow: none;	
+  text-shadow: none;  
   background-color: #4d90fe;
   background-image: -moz-linear-gradient(top, #4d90fe, #4787ed);
   background-image: -ms-linear-gradient(top, #4d90fe, #4787ed);
@@ -412,7 +412,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 /*  Green */
 .m-btn.green {
   color: white;
-  text-shadow: none;	 
+  text-shadow: none;   
   background-color: #35aa47;
   background-image: -moz-linear-gradient(top, #35aa47, #35aa47);
   background-image: -ms-linear-gradient(top, #35aa47, #35aa47);
@@ -457,7 +457,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 /*  Purple */
 .m-btn.purple {
   color: white; 
-  text-shadow: none;	
+  text-shadow: none;  
   background-color: #852b99;
   background-image: -moz-linear-gradient(top, #852b99, #852b99);
   background-image: -ms-linear-gradient(top, #852b99, #852b99);
@@ -503,7 +503,7 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 
 .m-btn.black {
   color: white; 
-  text-shadow: none;	
+  text-shadow: none;  
   background-color: #555555;
   background-image: -moz-linear-gradient(top, #555555, #555555);
   background-image: -ms-linear-gradient(top, #555555, #555555);
@@ -558,10 +558,10 @@ input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-s
 }
 .big
 {
-	height: 38px;
-	font-size: 18px; 
-	line-height: 38px; 	
-	padding: 20px 26px;
+  height: 38px;
+  font-size: 18px; 
+  line-height: 38px;  
+  padding: 20px 26px;
 }
 
 .rnd

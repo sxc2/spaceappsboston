@@ -18,5 +18,4 @@ myAppControllers.controller('LandingCtrl', ['$scope', '$location', LandingCtrl])
 
 //   }])
 //   .controller('MyCtrl2', [function() {
-
 //   }]);

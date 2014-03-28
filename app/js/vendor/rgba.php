@@ -170,5 +170,4 @@ else {
 	// Free up memory
 	imagedestroy($img);
 }
-
 /* End of file rgba.php */
